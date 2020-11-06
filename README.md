@@ -6,7 +6,7 @@ Die drei Beispiele sollen die Unterscheidung der Begriffe Fault, Error, und Fail
 Ammann, P., & Offutt, J. (2016). Introduction to software testing. Cambridge University Press.
 
 Unabhaengig von der genauen Begrifflichkeit, was zaehlt ist das Verstaendnis fuer die folgenden Punkte:
-1. Souce Code kann falsch sein. (Wir sagen dazu Fault)
-2. Wenn falscher Code ausgefuehrt wird, kann das Resultat richtig oder falsch (= Error) sein.
-3. Wenn ein Programmzustand falsch ist (Error) dann kann man diese Diskrepanz erst beobachten, wenn der Error bis zu einem Output des Programms propagiert ist (Failure)
+1. Source Code kann falsch sein. (Wir sagen dazu _Fault_)
+2. Wenn falscher Code ausgefuehrt wird, kann das Resultat richtig oder falsch (= _Error_) sein.
+3. Wenn ein Programmzustand falsch ist (Error) dann kann man diese Diskrepanz erst beobachten, wenn der Error bis zu einem Output des Programms propagiert ist (_Failure_)
 
