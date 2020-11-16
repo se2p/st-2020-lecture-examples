@@ -22,4 +22,10 @@ Die Short-Circuiting-Beispiele zeigen dass Condition Coverage in Java nicht imme
 
 Die Beispiele sollen weiters Diskrepanzen zwischen Coverage-Messungen in Jacoco und IntelliJ zeigen (z.B. siehe DivisionByZero, oder TryCatchExample, oder SwitchExample).
 
-  
+## Woche 3
+
+Wir haben uns in der Zoom-Session mit dem PIT Mutationsanalyse-Werkzeug beschäftigt. Informationen dazu findet man unter [https://pitest.org/](https://pitest.org/).
+
+Das Eclipse-Plugin ([Pitclipse](https://marketplace.eclipse.org/content/pitclipse/)) ist im Eclipse-Marketplace verfügbar, ebenso gibt es ein [IntelliJ plugin](https://plugins.jetbrains.com/plugin/7119-pit-mutation-testing-idea-plugin). Es gibt weiters ein [Maven plugin](https://pitest.org/quickstart/maven/) und ein [Gradle-plugin](https://gradle-pitest-plugin.solidsoft.info/).
+
+Die Tests in der `LiftTest`-Klasse "töten" 24 der 26 Mutanten, die PIT mit den Default-Einstellungen erzeugt. Die verbleibenden 2 Mutanten sind _äquivalent_.
