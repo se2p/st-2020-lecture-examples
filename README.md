@@ -29,3 +29,21 @@ Wir haben uns in der Zoom-Session mit dem PIT Mutationsanalyse-Werkzeug beschäf
 Das Eclipse-Plugin ([Pitclipse](https://marketplace.eclipse.org/content/pitclipse/)) ist im Eclipse-Marketplace verfügbar, ebenso gibt es ein [IntelliJ plugin](https://plugins.jetbrains.com/plugin/7119-pit-mutation-testing-idea-plugin). Es gibt weiters ein [Maven plugin](https://pitest.org/quickstart/maven/) und ein [Gradle-plugin](https://gradle-pitest-plugin.solidsoft.info/).
 
 Die Tests in der `LiftTest`-Klasse "töten" 24 der 26 Mutanten, die PIT mit den Default-Einstellungen erzeugt. Die verbleibenden 2 Mutanten sind _äquivalent_.
+
+## Woche 4
+
+(Keine Inhalte zum Gastvortrag von Goran Petrovic)
+
+## Woche 5
+
+Beispiele zu CheckStyle, FindBugs etc, Test Smells -- kein Code Beispiel hier
+
+## Woche 6
+
+Beispiele zu Mocking, Assertion Libraries/Matchers, und BDD.
+
+Diese Beispiele haben Dependencies die aktuell in diesem Repository nicht konfiguriert sind: 
+- Mockito (mockito-core + mockito-junit-jupiter)
+- Hamcrest
+- Google Truth
+- JBehave
